@@ -9,14 +9,14 @@ from catbox import CatboxUploader
 from pyrogram.types import Message, InlineKeyboardMarkup, InlineKeyboardButton
 
 # pyro client config
-API_ID    = os.environ.get("API_ID", "") # input api id
-API_HASH  = os.environ.get("API_HASH", "") # input api hash
-BOT_TOKEN = os.environ.get("BOT_TOKEN", "") # input bot token
+API_ID    = os.environ.get("API_ID", "23631217") # input api id
+API_HASH  = os.environ.get("API_HASH", "567c6df308dc6901790309499f729d12") # input api hash
+BOT_TOKEN = os.environ.get("BOT_TOKEN", "8153208191:AAET_YAHGjeLFNXf0q1Wy1zWVoGNwcyMnlY") # input bot token
 
 # other configs
 BOT_UPTIME = time.time()
 PORT = int(os.environ.get('PORT', '8080')) # input PORT
-ADMIN = int(os.environ.get('ADMIN', '0')) # input user id
+ADMIN = int(os.environ.get('ADMIN', '6139759254')) # input user id
 
 class ImageToLinkBot(Client):
     def __init__(self):
